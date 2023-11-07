@@ -9,7 +9,7 @@ import { getPayment } from './razorpay';
 const app = express();
 app.use(express.json());
 
-const port = 3000;
+const port = 6300;
 
 app.use('/auth', authRoute);
 app.use('/slider', sliderRoute);
