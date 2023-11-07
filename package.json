@@ -4,7 +4,8 @@
   "description": "",
   "main": "./src/app.ts",
   "scripts": {
-    "start": "nodemon --exec ts-node src/app.ts"
+    "start": "nodemon --exec ts-node src/app.ts",
+    "serve": "tsc src/app.ts -w & pm2 start dist/app.js --watch"
   },
   "keywords": [],
   "author": "",
